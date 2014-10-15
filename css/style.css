@@ -47,6 +47,10 @@ h2 {
 	margin: 0 1.666%;
 }
 
+.project:first-child img{
+	width: 100%;
+}
+
 .project h3 {
 	text-align: center;
 	color: #747704;
@@ -62,4 +66,11 @@ h2 {
 .project a {
 	font-weight: 100;
 	color: #747704;
+}
+
+@media screen and (max-width: 600px){
+	.project {
+		width: 85%;
+		margin: 0 7.5%;
+	}
 }
